@@ -1,0 +1,65 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --main-color: rgb(0,0,0);
+  --second-color: rgb(2,65,64);
+  --third-color: rgb(8,128,128);
+  --accent-color: yellow;
+}
+
+.text-main {
+  color : var(--main-color);
+}
+
+.text-secondary {
+  color : var(--second-color);
+}
+
+.text-third { 
+  color: var(--third-color);
+}
+
+.text-accent{
+  color: var(--accent-color);
+}
+
+.bg-main {
+  background-color : var(--main-color);
+}
+
+.bg-secondary {
+  background-color : var(--second-color);
+}
+
+.bg-third { 
+  background-color: var(--third-color);
+}
+
+.bg-accent{
+  background-color: var(--accent-color);
+}
+
+
+.btnvisita{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 15px 40px;
+   border: none;
+   font-size: 20px;
+   border-bottom: 6px solid var(--third-color);
+   border-right: 6px solid var(--third-color);
+}
+
+.btnBuy{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  font-size: small;
+  border-bottom: 3px solid var(--third-color);
+  border-right: 3px solid var(--third-color);
+}
