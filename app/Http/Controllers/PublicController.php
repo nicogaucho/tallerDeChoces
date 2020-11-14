@@ -30,4 +30,12 @@ class PublicController extends Controller
     public function contact() {
         return view('contact');
     }
+
+    public function submit(Request $request)
+    {
+      
+        return view('sales');
+        
+    }
 }
+

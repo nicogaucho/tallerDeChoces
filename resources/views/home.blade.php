@@ -1,6 +1,5 @@
-{{-- x-layout en lugar de extends y section --}}
-<x-layout>
-
+@extends('layouts.app')
+@section('content')
     <div class="container my-5 py-5">
         <div class="row h-100 mt-5">
             <div class="col-12 col-md-6">
@@ -71,8 +70,7 @@
             @endforeach
         </div>
     </div>
-
-</x-layout>
+@endsection
 
 
 

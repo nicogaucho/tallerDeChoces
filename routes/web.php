@@ -27,7 +27,7 @@ Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 
 
 // form insert announcement in <services class="blade php"
-
+Route::post('/sales/submit', [PublicController::class, 'submit'])->name('sales.submit');
 // from contact mail in section contact 
 
 // create footer each page 
