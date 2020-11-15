@@ -4,11 +4,11 @@
         <div class="row h-100 mt-5">
             <div class="col-12 col-md-6">
                 <h1 class="text-main text-uppercase">talleres de coches</h1>
-                <p class="text-secondary mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                <button class="btnvisita"><span>visita</span></button>
+                <p class="lead text-secondary mt-5">Haga clic aquí para insertar su próximo anuncio</p>
+            <a href="{{route('sales')}}"><button class="btnvisita"><span>Insertar</span></button></a>
             </div>
             <div class="col-12 col-md-6">
-                <img src="/img/veicle.svg" width="500" alt="">
+                <img src="/img/home.svg" width="500" alt="">
             </div>
         </div>
     </div>

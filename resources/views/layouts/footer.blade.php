@@ -1,80 +1,49 @@
 <footer class="foothead">
-    <div class="container h-100 my-5 py-5">
+    <div class="container my-3 py-3">
         <div class="row align-items-center">
             <div class="col-12 text-center mt-5">
                 <i class="far fa-paper-plane fa-2x"></i>
                 <h3 class="font-weight-bold mt-3">Regístrese para recibir noticias</h3>
-                <div class="d-flex justify-content-center mt-3">
-                    <form class="form-inline">
-                        <div class="form-group mx-sm-3 mb-2">
-                            <label for="inputPassword2" class="sr-only">Password</label>
-                            <input type="text" class="form-control rounded-0 border-0" id="inputPassword2"
-                                placeholder="correo">
-                        </div>
-                        <button type="submit" class="btnBuy p-2 mb-2">submit</button>
-                    </form>
+            <a href="{{route('contact')}}"><button class="btnBuy mt-4 px-5 text-uppercase"> subscribe </button></a> 
+            </div>
+            <div class="container my-5 py-5">
+                <div class="row d-flex justify-content-center lineafondo">
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <h5 class="text-uppercase text-main">Taller</h5>
+                      <p class="small text-secondary mb-0">Lorem ipsum dolor sit</p>
+                      <i class="fab fa-facebook mr-2"></i>
+                      <i class="fab fa-instagram mr-2"></i>
+                      <i class="fab fa-twitter mr-2"></i>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <h6 class="text-main">PRODUCT</h6>
+                      <p class="small text-secondary mt-3"> mercedes</p>
+                      <p class="small text-secondary"> audi</p>
+                      <p class="small text-secondary"> nissan</p>
+                      <p class="small text-secondary"> ford</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <h6  class="text-main">SALES</h6>
+                      <p class="small text-secondary mt-3">descount:  50%</p>
+                      <p class="small text-secondary"> work with us</p>
+                      <p class="small text-secondary"> about us</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <h6 class="text-main">PARTNERSHIP</h6>
+                      <p class="small text-secondary mt-3"> mercedes</p>
+                      <p class="small text-secondary"> audi</p>
+                      <p class="small text-secondary"> nissan</p>
+                      <p class="small text-secondary"> ford</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                      <h6 class="text-main">CONTACT</h6>
+                      <p class="small text-secondary mt-3">movil : 38452834</p>
+                      <p class="small text-secondary"> email : fasds@faf.com</p>
+                      <p class="small text-secondary"> fax : 629374923</p>
+                      <p class="small text-secondary"> cif : 42639472</p>
+                    </div>
                 </div>
+                <p class="text-center text-secondary small mt-5">@copyright2020</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-4 my-5 py-5 text-center">
-              <div class="card-contact rounded-0 border-0 bg-secondary">
-                <div class="card-body">
-                  <i class="fas fa-map-marked-alt text-main"></i>
-                  <h5 class="card-title  mt-3 text-accent">donde estamos</h5>
-                  <p class="card-text">Con texto de apoyo a continuación </p>
-                  <hr>
-                  <p class="medium">Calle s.trso llagas, 12 </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 my-5 py-5 text-center">
-              <div class="card-contact rounded-0 border-0 bg-secondary ">
-                <div class="card-body">
-                  <i class="fas fa-at text-main"></i>
-                  <h5 class="card-title mt-3 text-accent">como contactarnos</h5>
-                  <p class="card-text">Con texto de apoyo a continuación</p>
-                  <hr>
-                  <p class="medium">niconico@nico.com</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-4 my-5 py-5 text-center">
-              <div class="card-contact rounded-0 border-0 bg-secondary ">
-                <div class="card-body">
-                  <i class="fas fa-phone-volume text-main"></i>
-                  <h5 class="card-title mt-3 text-accent">como llamarnos</h5>
-                  <p class="card-text">Con texto de apoyo a continuación</p>
-                    <hr>
-                  <p class="medium">+34 6054579</p>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-center">
-            <h3>follow</h3>
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-square fa-stack-2x text-third"></i>
-              <i class="fab fa-facebook fa-stack-1x fa-inverse text-main"></i>
-            </span>
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-square fa-stack-2x text-third"></i>
-              <i class="fab fa-twitter fa-stack-1x fa-inverse text-main"></i>
-            </span>
-            <span class="fa-stack fa-2x">
-              <i class="fas fa-square fa-stack-2x text-third"></i>
-              <i class="fab fa-instagram fa-stack-1x fa-inverse text-main"></i>
-            </span>
-          </div>
-        </div>
-        <hr>
-        <div class="text-center mb-3">
-         <p>@copyright 2020</p>
-        </div>
-    
-       
-    </div>
-    </div> 
-    </div>
 </footer>

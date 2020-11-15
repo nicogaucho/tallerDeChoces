@@ -3,16 +3,16 @@
   <div class="ml-auto" id="navbarNav">
     <ul class="navbar-nav mr-5">
      
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-3 borderItem">
         <a class="nav-link text-uppercase" href="{{route('home')}}">home</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-3 borderItem">
         <a class="nav-link text-uppercase" href="{{route('services')}}">services</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-3 borderItem">
         <a class="nav-link text-uppercase" href="{{route('sales')}}">sales</a>
       </li>
-      <li class="nav-item mr-3">
+      <li class="nav-item mr-3 borderItem">
         <a class="nav-link text-uppercase" href="{{route('contact')}}">contact</a>
       </li>
     </ul>

@@ -33,9 +33,10 @@ class PublicController extends Controller
 
     public function submit(Request $request)
     {
-      
-        return view('sales');
+        
+        return view('contact');
         
     }
+
 }
 
