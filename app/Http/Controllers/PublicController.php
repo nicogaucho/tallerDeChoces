@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
@@ -33,10 +35,20 @@ class PublicController extends Controller
 
     public function submit(Request $request)
     {
-        
-        return view('contact');
+       $name = $request->input('name');
+       $email = $request->input('email');
+       $password = $request->input('password');
+
+       $contact = compact('name', 'email');
+
+       Mail::to($email)->send(new ContactMail($contact));
+       return redirect()->route('thankyou', compact('name'));
         
     }
+  
+    public function thankyou($name){
+       return view('thankyou',compact('name'));
+}
 
 }
 

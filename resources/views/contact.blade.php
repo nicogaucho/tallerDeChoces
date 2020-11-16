@@ -16,7 +16,7 @@
       <img src="/img/subscribe.svg" width="450" alt="">
 </div>
     <div class="col-12 col-md-6">
-    <form action="{{ route ('contact.submit')}}" method="GET">
+    <form action="{{route('contact.submit')}}" method="POST">
         @csrf
           <div class="form-row">
             <div class="form-group col-12">

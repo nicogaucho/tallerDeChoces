@@ -28,11 +28,16 @@ Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 
 // form insert contact in contact.blade
 
-Route::get('/contact/submit', [PublicController::class, 'submit'])->name('contact.submit');
+Route::post('/contact/submit', [PublicController::class, 'submit'])->name('contact.submit');
+
+/* THANKYOU */
+Route::get('/thankyou/{name}', [PublicController::class, 'thankyou'])->name('thankyou');
+
 
 // from contact mail in section contact 
 
-// create footer each page 
+
+
 
 // building assets 
 
