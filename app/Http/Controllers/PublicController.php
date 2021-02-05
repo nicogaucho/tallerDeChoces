@@ -15,7 +15,7 @@ class PublicController extends Controller
             [ "name" => "Ferrari", "price" => "40000", "img" => "/img/ferrari.jpg"],
             [ "name" => "Lamborghini", "price" => "50000", "img" => "/img/lamborghini.jpg"],
             [ "name" => "Ford", "price" => "10000", "img" => "/img/ford.jpg"],
-            [ "name" => "Nissan", "price" => "12000", "img" => "/img/nissan .jpg"],
+            [ "name" => "Nissan", "price" => "12000", "img" => "/img/nissan.jpg"],
             [ "name" => "Fiat", "price" => "8000", "img" => "/img/fiat.jpg"],
         ];
         return view('home', [ "coches" => $coches ]);
@@ -42,12 +42,12 @@ class PublicController extends Controller
        $contact = compact('name', 'email');
 
        Mail::to($email)->send(new ContactMail($contact));
-       return redirect()->route('thankyou', compact('name'));
+       return redirect()->route('mail.thankyou', compact('name'));
         
     }
   
     public function thankyou($name){
-       return view('thankyou',compact('name'));
+       return view('mail.thankyou',compact('name'));
 }
 
 }

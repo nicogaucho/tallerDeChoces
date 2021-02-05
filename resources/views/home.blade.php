@@ -7,8 +7,8 @@
                 <p class="lead text-secondary mt-5">Haga clic aquí para insertar su próximo anuncio</p>
             <a href="{{route('sales')}}"><button class="btnvisita"><span>Insertar</span></button></a>
             </div>
-            <div class="col-12 col-md-6">
-                <img src="/img/home.svg" width="500" alt="">
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <img src="/img/home.svg" width="350" alt="">
             </div>
         </div>
     </div>

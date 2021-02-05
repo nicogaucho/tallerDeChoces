@@ -31,7 +31,7 @@ Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
 Route::post('/contact/submit', [PublicController::class, 'submit'])->name('contact.submit');
 
 /* THANKYOU */
-Route::get('/thankyou/{name}', [PublicController::class, 'thankyou'])->name('thankyou');
+Route::get('/mail/thankyou/{name}', [PublicController::class, 'thankyou'])->name('mail.thankyou');
 
 
 // from contact mail in section contact 
@@ -40,5 +40,3 @@ Route::get('/thankyou/{name}', [PublicController::class, 'thankyou'])->name('tha
 
 
 // building assets 
-
-
